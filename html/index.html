@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <meta charset="UTF-8">
+
+            <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+
+
+            <title> Welcome to Tic tac  toe G.A.M.E !! </title>
+            <link rel=stylesheet href="../stylesheets/main.css">
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+        
+            <h1 class=" swing animated infinite">  Let's play Tic-Tac-Toe </h1>
+
+    </head>
+
+    
+    <body>
+        <div class="win"> </div>
+       
+
+        <div class="grid-container"> 
+
+            <div class="items">
+                <div class="grid-item" id ="0"></div> 
+                <div class="grid-item" id ="1" ></div>
+                <div class="grid-item" id="2"></div>
+             </div>
+
+            <div class="items">
+                <div class="grid-item"  id="3"></div>
+                <div class="grid-item" id="4"></div>
+                <div class="grid-item" id="5"></div>
+            </div>
+
+            <div class="items">
+                <div class="grid-item"id ="6" ></div>
+                <div class="grid-item" id = "7" ></div>
+                <div class="grid-item" id ="8" ></div>
+           </div>
+        </div>
+        
+        <br>
+
+    
+        <!-- <button class="reset" > Re-Start </button> -->
+        <input id="btn-1" type="button" value= "Re-Start" onclick="set()"/>
+        <span>  </span>
+        <input id="btn-2" type="button" value= "New Game" onclick="NewGame()"/>
+    </br>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+   
+    <footer> 
+            <h2 class=" bounce animated infinite"> Player 1: <span id="X"></span></h2>
+
+            <h2 class=" bounce animated infinite"> Player 2: <span id="O"></span></h2>
+            </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="../scripts/main.js"></script>
+</body>
+
+
+    </html>

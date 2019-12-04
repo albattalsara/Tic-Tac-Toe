@@ -1,0 +1,99 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+.items{
+    display: flex;
+    text-align: center;
+
+}
+.grid-item{
+background-color: rgb(205, 243, 197);
+border: 1px solid rgba(12, 170, 20, 0.808);
+/* font-size: 40px;  */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+text-align: center;
+height: 160px;
+width: 160px;
+font-size: 120px;
+
+}
+
+.grid-item:hover{
+    background-color: lightgreen;
+}
+
+body {
+  color: DARKGREEN;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: display;
+    width: 100%; 
+    height: 100vh;
+    background-color: YELLOWGREEN; 
+    
+
+}
+
+
+
+h1 {
+    
+    font-style: oblique;
+    text-align: center;
+
+}
+
+
+    input{
+        background-color: darkgreen;
+        color: whitesmoke;
+        font-size: small ;
+        justify-content: center;
+
+        /* width: 7%;
+        height: 10%;
+        background-color: blue;
+        color:whitesmoke;
+        justify-content: center; */
+        width: 300px;
+        height: 75px;
+        margin-top: 10px;
+        font-size:25px;
+    }
+
+
+ #btn-1{
+    background:  darkorange;
+ }   
+ #btn-2{
+    background: lightskyblue;
+ }
+
+.win{
+    font-size: 66px;
+   color: darkred;
+}
+
+
+  /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .grid-container,.grid-item {
+      width: 100%;
+    }    
+  }  */
+
+
+  @media (max-width: 600px){ 
+    .grid-container,.grid-item {
+      width: 100%;
+      display: block;
+      }    
+  }
